@@ -70,8 +70,8 @@ $(document).ready(function() {
   });
 
   // Handle form submission to Google Sheets
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3XmlE5m9YLOHOBrRuCh2Ohv49N9bs4bew7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
-  const form = document.forms['submitToGoogleSheet'];
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyWrvIx6hiCpLym-4VEC-qXx0_S68Zm97ZtOAXwtL6C0efViTYB6stCGz1k60Xlk5I/exec';
+    const form = document.forms['submitToGoogleSheet'];
   const msg = document.getElementById("msg");
 
   form.addEventListener('submit', e => {
